@@ -8,8 +8,7 @@ import { PopoverPage } from '../about-popover/about-popover';
   templateUrl: 'paroquia.html'
 })
 export class ParoquiaPage {
-  conferenceDate = '2047-05-17';
-
+  
   constructor(public popoverCtrl: PopoverController) { }
 
   presentPopover(event: Event) {
