@@ -5,11 +5,10 @@ import { PopoverPage } from '../about-popover/about-popover';
 
 @Component({
   selector: 'page-about',
-  templateUrl: 'about.html'
+  templateUrl: 'paroquia.html'
 })
-export class AboutPage {
-  conferenceDate = '2047-05-17';
-
+export class ParoquiaPage {
+  
   constructor(public popoverCtrl: PopoverController) { }
 
   presentPopover(event: Event) {

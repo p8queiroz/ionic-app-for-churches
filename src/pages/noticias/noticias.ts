@@ -16,10 +16,10 @@ import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
 
 
 @Component({
-  selector: 'page-schedule',
-  templateUrl: 'schedule.html'
+  selector: 'page-evangelho',
+  templateUrl: 'noticias.html'
 })
-export class SchedulePage {
+export class NoticiasPage {
   // the list is a child of the schedule page
   // @ViewChild('scheduleList') gets a reference to the list
   // with the variable #scheduleList, `read: List` tells it to return

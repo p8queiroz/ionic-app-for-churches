@@ -11,12 +11,13 @@ import { IonicStorageModule } from '@ionic/storage';
 
 import { ConferenceApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
+import { ParoquiaPage } from '../pages/paroquia/paroquia';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
-import { SchedulePage } from '../pages/schedule/schedule';
+import { EvangelhoPage } from '../pages/evangelho/evangelho';
+import { NoticiasPage } from '../pages/noticias/noticias';
 import { ScheduleFilterPage } from '../pages/schedule-filter/schedule-filter';
 import { SessionDetailPage } from '../pages/session-detail/session-detail';
 import { SignupPage } from '../pages/signup/signup';
@@ -29,16 +30,16 @@ import { SupportPage } from '../pages/support/support';
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 
-
 @NgModule({
   declarations: [
     ConferenceApp,
-    AboutPage,
+    ParoquiaPage,
     AccountPage,
     LoginPage,
     MapPage,
     PopoverPage,
-    SchedulePage,
+    EvangelhoPage,
+    NoticiasPage,
     ScheduleFilterPage,
     SessionDetailPage,
     SignupPage,
@@ -54,13 +55,14 @@ import { UserData } from '../providers/user-data';
     IonicModule.forRoot(ConferenceApp, {}, {
       links: [
         { component: TabsPage, name: 'TabsPage', segment: 'tabs-page' },
-        { component: SchedulePage, name: 'Schedule', segment: 'schedule' },
+        { component: EvangelhoPage, name: 'Evangelho', segment: 'schedule' },
+        { component: NoticiasPage, name: 'Notícias', segment: 'schedule' },
         { component: SessionDetailPage, name: 'SessionDetail', segment: 'sessionDetail/:sessionId' },
         { component: ScheduleFilterPage, name: 'ScheduleFilter', segment: 'scheduleFilter' },
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:speakerId' },
         { component: MapPage, name: 'Map', segment: 'map' },
-        { component: AboutPage, name: 'About', segment: 'about' },
+        { component: ParoquiaPage, name: 'Paroquia', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },
         { component: LoginPage, name: 'LoginPage', segment: 'login' },
@@ -73,12 +75,13 @@ import { UserData } from '../providers/user-data';
   bootstrap: [IonicApp],
   entryComponents: [
     ConferenceApp,
-    AboutPage,
+    ParoquiaPage,
     AccountPage,
     LoginPage,
     MapPage,
     PopoverPage,
-    SchedulePage,
+    EvangelhoPage,
+    NoticiasPage,
     ScheduleFilterPage,
     SessionDetailPage,
     SignupPage,
