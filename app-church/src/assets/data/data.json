@@ -1,0 +1,122 @@
+{
+
+  "schedule": [
+    {
+    "date": "06 / 02 / 2018",
+    "groups": [ {
+      "time": "06 / 02 / 2018",
+      "sessions": [ {
+        "name": "O importante é a humildade...",
+        "location": "Room 2201",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia dui neque, quis finibus lorem aliquam vel. Etiam mattis lorem a consectetur condimentum. Proin id feugiat est, ",
+        "speakerNames": ["Rachel Rabbit"],
+        "timeStart": "aaa",
+        "timeEnd": "bbb",
+        "tracks": ["Tooling"],
+        "id": "4"
+      }]
+    }, {
+      "time": "05 / 02 / 2018",
+      "sessions": [ {
+        "name": "O importante é a salvacao...",
+        "location": "Room 2201",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia dui neque, quis finibus lorem aliquam vel. Etiam mattis lorem a consectetur condimentum. Proin id feugiat est, ",
+        "speakerNames": ["Rachel Rabbit"],
+        "timeStart": "aaa",
+        "timeEnd": "bbb",
+        "tracks": ["Tooling"],
+        "id": "4"
+      }]
+    }, {
+      "time": "04 / 02 / 2018",
+      "sessions": [ {
+        "name": "O importante é a formação do carater...",
+        "location": "Room 2201",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia dui neque, quis finibus lorem aliquam vel. Etiam mattis lorem a consectetur condimentum. Proin id feugiat est, ",
+        "speakerNames": ["Rachel Rabbit"],
+        "timeStart": "aaa",
+        "timeEnd": "bbb",
+        "tracks": ["Tooling"],
+        "id": "4"
+      }]
+    },{
+      "time": "03 / 02 / 2018",
+      "sessions": [ {
+        "name": "O importante é a falar do bem...",
+        "location": "Room 2201",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lacinia dui neque, quis finibus lorem aliquam vel. Etiam mattis lorem a consectetur condimentum. Proin id feugiat est, ",
+        "speakerNames": ["Rachel Rabbit"],
+        "timeStart": "aaa",
+        "timeEnd": "bbb",
+        "tracks": ["Tooling"],
+        "id": "4"
+      }]
+    }]
+  }],
+
+
+  "speakers": [{
+    "name": "Burt Bear",
+    "profilePic": "assets/img/speakers/bear.jpg",
+    "twitter": "ionicframework",
+    "about": "Burt is a Bear.",
+    "location": "Everywhere",
+    "email": "burt@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "1"
+  }, {
+    "name": "Charlie Cheetah",
+    "profilePic": "assets/img/speakers/cheetah.jpg",
+    "twitter": "ionicframework",
+    "about": "Charlie is a Cheetah.",
+    "location": "Everywhere",
+    "email": "charlie@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "2"
+  }, {
+    "name": "Donald Duck",
+    "profilePic": "assets/img/speakers/duck.jpg",
+    "twitter": "ionicframework",
+    "about": "Donald is a Duck.",
+    "location": "Everywhere",
+    "email": "donald@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "3"
+  }, {
+    "name": "Eva Eagle",
+    "profilePic": "assets/img/speakers/eagle.jpg",
+    "twitter": "ionicframework",
+    "about": "Eva is an Eagle.",
+    "location": "Everywhere",
+    "email": "eva@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "4"
+  }, {
+    "name": "Ellie Elephant",
+    "profilePic": "assets/img/speakers/elephant.jpg",
+    "twitter": "ionicframework",
+    "about": "Ellie is an Elephant.",
+    "location": "Everywhere",
+    "email": "ellie@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "5"
+  }, {
+    "name": "Gino Giraffe",
+    "profilePic": "assets/img/speakers/giraffe.jpg",
+    "twitter": "ionicframework",
+    "about": "Gino is a Giraffe.",
+    "location": "Everywhere",
+    "email": "gino@example.com",
+    "phone": "+1-541-754-3010",
+    "id": "6"
+  }],
+
+
+  "map": [{
+    "name": "Monona Terrace Convention Center",
+    "lat": 43.071584,
+    "lng": -89.380120,
+    "center": true
+  }]
+
+}
