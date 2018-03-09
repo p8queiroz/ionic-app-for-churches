@@ -56,7 +56,7 @@
 
 
   "speakers": [{
-    "name": "Burt Bear",
+    "name": "Bur1 Bear",
     "profilePic": "assets/img/speakers/bear.jpg",
     "twitter": "ionicframework",
     "about": "Burt is a Bear.",
@@ -65,7 +65,7 @@
     "phone": "+1-541-754-3010",
     "id": "1"
   }, {
-    "name": "Charlie Cheetah",
+    "name": "Charliea Cheetah",
     "profilePic": "assets/img/speakers/cheetah.jpg",
     "twitter": "ionicframework",
     "about": "Charlie is a Cheetah.",
@@ -113,9 +113,9 @@
 
 
   "map": [{
-    "name": "Monona Terrace Convention Center",
-    "lat": 43.071584,
-    "lng": -89.380120,
+    "name": "Igreja Senhor Do Bonfim",
+    "lat": -3.7233992,
+    "lng": -38.5510816,
     "center": true
   }]
 

@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Paróqia Senhor do Bonfim</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="about-header">
+    <img src="assets/img/hallgrimskirkja.svg" alt="ionic logo">
+  </div>
+  <div padding class="about-info">
+    <h4>Igreja Lorem ipsum dolor sit amet </h4>
+
+    <ion-list no-lines>
+    
+
+      <ion-item>
+        <ion-icon name="pin" item-start></ion-icon>
+        <ion-label>Location</ion-label>
+        <ion-select>
+          <ion-option value="madison" selected>Madison, WI</ion-option>
+          <ion-option value="austin">Austin, TX</ion-option>
+          <ion-option value="chicago">Chicago, IL</ion-option>
+          <ion-option value="seattle">Seattle, WA</ion-option>
+        </ion-select>
+      </ion-item>
+    </ion-list>
+
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Curabitur iaculis blandit nibh, eu vehicula purus maximus ut. 
+      Nunc a vehicula ex. Donec a semper odio. Vivamus tincidunt, turpis ut elementum sollicitudin,
+      lectus libero consectetur ligula, sed dapibus sapien tellus eu neque. rs
+      making this the largest Ionic
+      conference ever!
+    </p>
+  </div>
+</ion-content>

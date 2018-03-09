@@ -146,6 +146,13 @@ export class ConferenceData {
     });
   }
 
+  getEvangelho() {
+    return this.load().map((data: any) => {
+      return data.evangelho;
+    });
+  }
+
+
   getMap() {
     return this.load().map((data: any) => {
       return data.map;

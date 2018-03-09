@@ -110,12 +110,69 @@
     "phone": "+1-541-754-3010",
     "id": "6"
   }],
+  
+  "evangelho": [{
+    "data": "02/03/2018",
+    "titulo" : "Mateus 18,21-35",
+    "descricao" : "this is the description this is the description this is the description this is the description this is the description this is the description ",
+    "ComentarioDoEvangelho": "Este é um comentário a respeito do evangelho do dia",
+    "leituraRecomendada": "essa é a leitura recomendada",
+    "salmos": "esses são os salmos para a leitura",
+    "oracao": "essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. "
+  },
+  {
+    "data": "03/03/2018",
+    "titulo" : "Joao 18,21-35",
+    "descricao" : "2 this is the description this is the description this is the description this is the description this is the description this is the description ",
+    "ComentarioDoEvangelho": "Este é um comentário a respeito do evangelho do dia",
+    "leituraRecomendada": "essa é a leitura recomendada",
+    "salmos": "esses são os salmos para a leitura",
+    "oracao": "essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. "
+  },{
+    "data": "04/03/2018",
+    "titulo" : "Marcos 18,21-35",
+    "descricao" : "3 this is the description this is the description this is the description this is the description this is the description this is the description ",
+    "ComentarioDoEvangelho": "Este é um comentário a respeito do evangelho do dia",
+    "leituraRecomendada": "essa é a leitura recomendada",
+    "salmos": "esses são os salmos para a leitura",
+    "oracao": "essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. "
+  },{
+    "data": "05/03/2018",
+    "titulo" : "Paulo 18,21-35",
+    "descricao" : "4 this is the description this is the description this is the description this is the description this is the description this is the description ",
+    "ComentarioDoEvangelho": "Este é um comentário a respeito do evangelho do dia",
+    "leituraRecomendada": "essa é a leitura recomendada",
+    "salmos": "esses são os salmos para a leitura",
+    "oracao": "essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. "
+  },{
+    "data": "06/03/2018",
+    "titulo" : "Mateus 18,21-35",
+    "descricao" : "5 this is the description this is the description this is the description this is the description this is the description this is the description ",
+    "ComentarioDoEvangelho": "Este é um comentário a respeito do evangelho do dia",
+    "leituraRecomendada": "essa é a leitura recomendada",
+    "salmos": "esses são os salmos para a leitura",
+    "oracao": "essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. "
+  },{
+    "data": "07/03/2018",
+    "titulo" : "Pedro 18,21-35",
+    "descricao" : "6 this is the description this is the description this is the description this is the description this is the description this is the description ",
+    "ComentarioDoEvangelho": "Este é um comentário a respeito do evangelho do dia",
+    "leituraRecomendada": "essa é a leitura recomendada",
+    "salmos": "esses são os salmos para a leitura",
+    "oracao": "essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. essa é a oração para essa ação. "
+  }],
 
 
   "map": [{
     "name": "Igreja Senhor Do Bonfim",
     "lat": -3.7233992,
     "lng": -38.5510816,
+    "center": true
+  },
+  {
+    "name": "2 Igreja Senhor Do Bonfim",
+    "lat": -4.7233992,
+    "lng": -40.5510816,
     "center": true
   }]
 

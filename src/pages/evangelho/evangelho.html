@@ -6,10 +6,10 @@
 
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
-        Todos
+        Todas
       </ion-segment-button>
       <ion-segment-button value="favorites">
-        Favoritos
+        Favoritas
       </ion-segment-button>
     </ion-segment>
 
@@ -30,7 +30,20 @@
 </ion-header>
 
 <ion-content>
-  <ion-refresher (ionRefresh)="doRefresh($event)">
+
+  <ion-card *ngFor="let item of evangelho">
+    <ion-card-content >
+        <ion-card-title>
+          {{item.data}} /  {{item.titulo}}
+        </ion-card-title>
+        <p>
+          {{item.descricao}}
+        </p>
+    </ion-card-content>
+  </ion-card>
+
+
+ <!-- <ion-refresher (ionRefresh)="doRefresh($event)">
     <ion-refresher-content></ion-refresher-content>
   </ion-refresher>
 
@@ -40,7 +53,7 @@
 
       <ion-item-divider sticky>
         <ion-label>
-          {{group.time}}
+          {{group.time}} +
         </ion-label>
       </ion-item-divider>
 
@@ -73,7 +86,7 @@
   <ion-list-header [hidden]="shownSessions > 0">
       No Sessions Found
   </ion-list-header>
-
+-->
   <ion-fab bottom right #fab>
     <button ion-fab><ion-icon name="share"></ion-icon></button>
     <ion-fab-list side="top">

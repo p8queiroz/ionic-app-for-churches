@@ -11,8 +11,8 @@ import { SpeakerListPage } from '../speaker-list/speaker-list';
 })
 export class TabsPage {
   // set the root pages for each tab
-  tab1Root: any = EvangelhoPage;
-  tab2Root: any = ParoquiaPage;
+  tab1Root: any = ParoquiaPage;
+  tab2Root: any = EvangelhoPage;
   tab3Root: any = NoticiasPage;
   tab4Root: any = SpeakerListPage;
   tab5Root: any = MapPage;

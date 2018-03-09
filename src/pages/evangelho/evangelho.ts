@@ -31,6 +31,7 @@ export class EvangelhoPage {
   segment = 'all';
   excludeTracks: any = [];
   shownSessions: any = [];
+  evangelho: any = [];
   groups: any = [];
   confDate: string;
 
@@ -47,8 +48,20 @@ export class EvangelhoPage {
 
   ionViewDidLoad() {
     this.app.setTitle('Schedule');
-    this.updateSchedule();
+   //this.updateSchedule();
+    this.updateEvangelho();
   }
+
+   updateEvangelho() {
+    this.scheduleList && this.scheduleList.closeSlidingItems();
+    this.confData.getEvangelho().subscribe(
+      (data: any) => {
+        this.evangelho = data;
+      });
+
+   }
+
+
 
   updateSchedule() {
     // Close any open sliding items when the schedule updates
